@@ -1,3 +1,5 @@
+import { User } from "lucide-react";
+
 export default function Home() {
   return (
     <main className="grid grid-cols-2 min-h-screen">
@@ -6,6 +8,20 @@ export default function Home() {
         <div className="absolute right-0 top-1/2 h-[208px] w-[526px] bg-orange-500 opacity-50 -translate-y-1/2 translate-x-1/2 rounded-full blur-full" />
         {/* Stripes */}
         <div className="absolute right-2 top-0 bottom-0 w-2 bg-stripes" />
+
+        {/* Sign In */}
+        <a
+          href=""
+          className="flex items-center gap-3 text-left hover:text-gray-50 transition-colors"
+        >
+          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-400">
+            <User className="h-5 w-5 text-gray-500" />
+          </div>
+          <p className="text-sm leading-snug max-w-[140px]">
+            <span className="underline">Crie sua conta</span> e salve seus
+            projetos!
+          </p>
+        </a>
       </div>
 
       <div className="flex flex-col p-16">
