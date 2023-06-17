@@ -1,3 +1,5 @@
+<div align="center"> <img src="https://github.com/MariaGabrielaReis/nlw-12-spacetime-web/assets/69374340/6f4205cb-565a-4b77-8985-f83a7ef30024" alt="Banner com o nome do projeto" /> </div>
+
 API para a cápsula do tempo de projetos, uma aplicação que permite criar uma linha do tempo de todos os seus projetos, com descrição, imagens e vídeos! <br>
 **Aplicação construída no evento Next Level Week: Spacetime, promovido pela Rocketseat** 🚀
 > :hammer_and_wrench: Tecnologias e ferramentas: **TypeScript, React, TailwindCSS**
